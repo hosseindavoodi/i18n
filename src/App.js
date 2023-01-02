@@ -10,12 +10,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>{t('paragraph')}</p>
         <button className="btn" onClick={() => changeLanguage('en')}>english</button>
-        <button className="btn" onClick={() => changeLanguage('hn')}>hindi</button>
+        <button className="btn" onClick={() => changeLanguage('de')}>german</button>
         <button className="btn" onClick={() => changeLanguage('sp')}>spanish</button>
         <button className="btn" onClick={() => changeLanguage('fr')}>french</button>
+        <p>{t('paragraph')}</p>
+
       </header>
+      
     </div>
   );
 }

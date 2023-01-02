@@ -5,22 +5,22 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
-      "paragraph": "react-i18next is a powerful internationalization framework"
+      "paragraph": "our contents are translated to four languages"
     }
   },
   sp: {
     translation: {
-      "paragraph": "react-i18next es un poderoso marco de internacionalización"
+      "paragraph": "nuestros contenidos están traducidos a cuatro idiomas"
     }
   },
-  hn : {
+  de : {
     translation: {
-      "paragraph": "प्रतिक्रिया-i18next प्रतिक्रिया / प्रतिक्रिया मूल के लिए एक शक्तिशाली"
+      "paragraph": "unsere Inhalte sind in vier Sprachen übersetzt"
     }
   },
   fr : {
     translation: {
-      "paragraph": "react-i18next est un puissant framework d'internationalisation"
+      "paragraph": "nos contenus sont traduits en quatre langues"
     }
   }
 };
@@ -30,10 +30,10 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'hn',
+    lng: 'en',
     fallbackLng: 'sp',
     interpolation: {
-      escapeValue: false, // not needed for react as it escapes by default
+      escapeValue: false, 
     },
   });
 

@@ -13,17 +13,26 @@ const resources = {
   },
   sp: {
     translation: {
-      "paragraph": "nuestros contenidos están traducidos a cuatro idiomas"
+      "paragraph": "nuestros contenidos están traducidos a cuatro idiomas",
+      "key_zero": "Sprache",
+      "key_one": "Sprache",
+      "key_other": "Sprachen",
     }
   },
   de : {
     translation: {
-      "paragraph": "unsere Inhalte sind in vier Sprachen übersetzt"
+      "paragraph": "unsere Inhalte sind in vier Sprachen übersetzt",
+      "key_zero": "idioma",
+      "key_one": "idioma",
+      "key_other": "idiomas",
     }
   },
   fr : {
     translation: {
-      "paragraph": "nos contenus sont traduits en quatre langues"
+      "paragraph": "nos contenus sont traduits en quatre langues",
+      "key_zero": "Langue",
+      "key_one": "Langue",
+      "key_other": "langues",
     }
   }
 };

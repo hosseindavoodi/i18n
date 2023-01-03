@@ -5,7 +5,10 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 const resources = {
   en: {
     translation: {
-      "paragraph": "our contents are translated to four languages"
+      "paragraph": "our contents are translated to four languages",
+      "key_zero": "language",
+      "key_one": "language",
+      "key_other": "languages",
     }
   },
   sp: {
@@ -31,6 +34,7 @@ i18n
   .init({
     resources,
     lng: 'en',
+    length: resources.length,
     fallbackLng: 'sp',
     interpolation: {
       escapeValue: false, 

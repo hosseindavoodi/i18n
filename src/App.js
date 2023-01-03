@@ -15,7 +15,7 @@ function App() {
         <button className="btn" onClick={() => changeLanguage('sp')}>spanish</button>
         <button className="btn" onClick={() => changeLanguage('fr')}>french</button>
         <p>{t('paragraph')}</p>
-
+we have 4 {i18n.t('key', {count: Number(i18n.length)})}
       </header>
       
     </div>
